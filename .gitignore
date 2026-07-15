@@ -1,0 +1,57 @@
+# ===== macOS =====
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon?
+._*
+.Spotlight-V100
+.Trashes
+
+# ===== Xcode =====
+# User-specific files and state (never commit these)
+xcuserdata/
+*.xcuserstate
+*.xcuserdatad
+*.xcworkspace/xcuserdata/
+
+# Build output
+build/
+DerivedData/
+*.o
+*.a
+
+# Various project settings that are user-specific
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+
+# Other
+*.moved-aside
+*.xccheckout
+*.xcscmblueprint
+*.hmap
+
+# App extensions
+*.appex
+
+# ===== Swift Package Manager =====
+.swiftpm/
+.build/
+Package.resolved
+
+# NOTE: We intentionally DO track *.xcodeproj here.
+# The line below is only for SPM-generated projects, not real Xcode app projects.
+# *.xcodeproj
+
+# ===== CocoaPods / Carthage / fastlane (if you add these later) =====
+Pods/
+Carthage/Build/
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots/**/*.png
+fastlane/test_output

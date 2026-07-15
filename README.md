@@ -6,7 +6,6 @@ A single repository collecting my iOS learning / tutorial apps.
 
 | App | Description |
 | --- | --- |
-| `firstiosapp` | First iOS app — basics |
 | `podcast` | Podcast app |
 | `weatherapp` | Weather app |
 
